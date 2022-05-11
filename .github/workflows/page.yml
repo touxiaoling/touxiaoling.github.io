@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout theme repo
-        uses: actions/checkout@v2
-        with:
-          repository: theme-next/hexo-theme-next
-          ref: master
-          path: themes/nexo
+      # - name: Checkout theme repo
+      #   uses: actions/checkout@v2
+      #   with:
+      #     repository: theme-next/hexo-theme-next
+      #     ref: master
+      #     path: themes/nexo
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:

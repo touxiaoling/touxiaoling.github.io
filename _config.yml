@@ -101,7 +101,6 @@ Plugins: hexo-generator-feed
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 theme: next
-theme_config: ./_config.next.yml
 
 feed:
     type: atom
