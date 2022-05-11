@@ -117,5 +117,5 @@ feed:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: git@github.com:touxiaoling/touxiaoling.github.io.git # 用https或者ssh均可
+  repository: https://github.com/touxiaoling/touxiaoling.github.io.git # 用https或者ssh均可
   branch: gh-pages
