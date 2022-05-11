@@ -6,7 +6,7 @@
   <link href="https://blog.thetomin.com/atom.xml" rel="self"/>
   
   <link href="https://blog.thetomin.com/"/>
-  <updated>2022-05-11T23:20:51.956Z</updated>
+  <updated>2022-05-11T23:22:35.602Z</updated>
   <id>https://blog.thetomin.com/</id>
   
   <author>
@@ -17,32 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://blog.thetomin.com/2022/05/11/hello-world/"/>
-    <id>https://blog.thetomin.com/2022/05/11/hello-world/</id>
-    <published>2022-05-11T23:20:51.956Z</published>
-    <updated>2022-05-11T23:20:51.956Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>编译测试</title>
     <link href="https://blog.thetomin.com/2022/05/11/%E7%BC%96%E8%AF%91%E6%B5%8B%E8%AF%95/"/>
     <id>https://blog.thetomin.com/2022/05/11/%E7%BC%96%E8%AF%91%E6%B5%8B%E8%AF%95/</id>
     <published>2022-05-11T22:22:35.000Z</published>
-    <updated>2022-05-11T23:20:51.956Z</updated>
+    <updated>2022-05-11T23:22:35.602Z</updated>
     
     
       
@@ -64,7 +43,7 @@
     <link href="https://blog.thetomin.com/2022/05/11/%E4%BD%A0%E5%A5%BD-%E4%B8%96%E7%95%8C/"/>
     <id>https://blog.thetomin.com/2022/05/11/%E4%BD%A0%E5%A5%BD-%E4%B8%96%E7%95%8C/</id>
     <published>2022-05-11T04:37:00.000Z</published>
-    <updated>2022-05-11T23:20:51.956Z</updated>
+    <updated>2022-05-11T23:22:35.602Z</updated>
     
     
       
