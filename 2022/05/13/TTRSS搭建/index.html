@@ -31,7 +31,7 @@
 <meta property="og:description" content="前言目前个人获取信息的方式十分的平台化,而每个平台基本上又都是以使用时间为条件给你推荐各种东西,比如奶子啊奶子啊还有奶子啊什么的,搞得我身体很不好.开玩笑,rss可以让我们主动从各个平台获取信息而不被绑架自己的视野,这非常有用.比如b站不会给你推荐抖音上的东西,抖音也不会给你推荐其他平台上的东西,其他平台还有v2ex,知乎,微博,大家因为常用平台不一样看到的东西也非常的不一样.但是跨平台的浏览不得">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-13T07:41:48.000Z">
-<meta property="article:modified_time" content="2022-05-13T10:17:44.303Z">
+<meta property="article:modified_time" content="2022-05-13T10:40:26.654Z">
 <meta property="article:author" content="tomin">
 <meta property="article:tag" content="TTRSS">
 <meta property="article:tag" content="docker">
@@ -225,7 +225,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-05-13 15:41:48 / 修改时间：18:17:44" itemprop="dateCreated datePublished" datetime="2022-05-13T15:41:48+08:00">2022-05-13</time>
+      <time title="创建时间：2022-05-13 15:41:48 / 修改时间：18:40:26" itemprop="dateCreated datePublished" datetime="2022-05-13T15:41:48+08:00">2022-05-13</time>
     </span>
 
   
@@ -245,7 +245,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>目前个人获取信息的方式十分的平台化,而每个平台基本上又都是以使用时间为条件给你推荐各种东西,比如奶子啊奶子啊还有奶子啊什么的,搞得我身体很不好.<br>开玩笑,rss可以让我们主动从各个平台获取信息而不被绑架自己的视野,这非常有用.比如b站不会给你推荐抖音上的东西,抖音也不会给你推荐其他平台上的东西,其他平台还有v2ex,知乎,微博,大家因为常用平台不一样看到的东西也非常的不一样.<br>但是跨平台的浏览不得不说又十分的麻烦.还有就是不同平台的排行榜都是处于自己利益定制的,另外还有一些不能在国内轻易访问的网站(非情色),如果想抓取不同平台的热门内容还有你想关注的内容,RSS就是一个非常棒的一站式工具.<br>当然,只是收集强时间相关的信息上来说.<br>不过很尴尬的是,目前并没有一个可以说特别好用的RSS平台,TTRSS相对来说是比较不错的一个,但用了一阵以后发现启动速度相对来说还是比较慢.嘛,怎么说,只能交给时间解决了.  </p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>目前个人获取信息的方式十分的平台化,而每个平台基本上又都是以使用时间为条件给你推荐各种东西,比如奶子啊奶子啊还有奶子啊什么的,搞得我身体很不好.<br>开玩笑,rss可以让我们主动从各个平台获取信息而不被绑架自己的视野,这非常有用.比如b站不会给你推荐抖音上的东西,抖音也不会给你推荐其他平台上的东西,其他平台还有v2ex,知乎,微博,大家因为常用平台不一样看到的东西也非常的不一样.<br>但是跨平台的浏览不得不说又十分的麻烦.还有就是不同平台的排行榜都是处于自己利益定制的,另外还有一些不能在国内轻易访问的网站(非情色).<br>还有就是像孤岛一样的半年不更新一次的个人博客,这种就更难主动去访问了,如果想抓取不同平台的热门内容还有你想关注的内容汇总到一起,RSS就是一个非常棒的一站式工具.<br>当然,只是收集强时间相关的信息上来说.<br>不过很尴尬的是,目前并没有一个可以说特别好用的RSS平台,TTRSS相对来说是比较不错的一个,但用了一阵以后发现启动速度相对来说还是比较慢.嘛,怎么说,只能交给时间解决了.  </p>
 <span id="more"></span>
 
 <h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><p>前置需要了解一些关于docker以及docker-compose的基本知识和基本命令.<br>docker在群晖的安装很简单,只要在套件库里面搜索docker然后安装上就可以了.其它系统的安装见官方页:<a target="_blank" rel="noopener" href="https://docs.docker.com/get-docker/">https://docs.docker.com/get-docker/</a><br>我是在自己的黑群晖小机器里搭建的.docker版本是20.10.3,docker-compose 版本是1.28.5,注意docker-compose版本最好大于1.17,不然会有点bug.  </p>
@@ -262,7 +262,7 @@
 <p>然后在里面写如下内容:</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&quot;3.8&quot;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">watchtower:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">containrrr/watchtower:latest</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">watchtower</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">TZ:</span> <span class="string">Asia/Shanghai</span></span><br><span class="line">      <span class="attr">WATCHTOWER_LABEL_ENABLE:</span> <span class="string">&quot;true&quot;</span></span><br><span class="line">      <span class="attr">WATCHTOWER_CLEANUP:</span> <span class="string">&quot;true&quot;</span></span><br><span class="line">      <span class="attr">WATCHTOWER_SCHEDULE:</span> <span class="string">&quot;0 30 4 * * *&quot;</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/var/run/docker.sock:/var/run/docker.sock</span></span><br></pre></td></tr></table></figure>
 <p>然后运行<code>docker-compose up -d</code>即可启动一个wathtower容器,它会在每天4.30检测并更新容器.<br>如果不经过一些其他特殊配置,watchtower容器一个宿主机只能运行一个,多个会相互冲突.不过一般来说一个就足够了.<br>如果你还有其他docker container 在运行也希望一并检测的话,给对应的容器增加一个<code>com.centurylinklabs.watchtower.enable: true</code>的label即可.  </p>
-<h2 id="启用https访问"><a href="#启用https访问" class="headerlink" title="启用https访问"></a>启用https访问</h2><p>ttrss默认是使用http访问的,而现在的chrome浏览器不建议http访问,所以我们可以申请一个https证书,使用nginx将http转成https再访问ttrss.<br>如果要启用https,首先我们需要一个个人的域名,在国内买的话需要备案,如果不想要备案的话也可以在一些国外的比如godaddy上注册一个域名.价格应该不会特别贵.<br>如果是在不想买的话就要考虑一些骚操作,不过我还是建议花钱买省心.有一个个人域名会方便很多.  </p>
+<h2 id="启用https访问"><a href="#启用https访问" class="headerlink" title="启用https访问"></a>启用https访问</h2><p>ttrss默认是使用http访问的,而现在的chrome浏览器不建议http访问,所以我们可以申请一个https证书,使用nginx将http转成https再访问ttrss.<br>如果要启用https,首先我们需要一个个人域名,在国内买的话需要备案,如果不想要备案的话也可以在一些国外的比如godaddy上注册一个域名.价格应该不会特别贵.<br>如果实在不想买的话就要考虑一些骚操作,不过我还是建议花钱买省心.有一个个人域名会方便很多.  </p>
 <h3 id="创建acme-sh容器"><a href="#创建acme-sh容器" class="headerlink" title="创建acme.sh容器"></a>创建acme.sh容器</h3><p>下面我就假设你已经有个一个域名,接下来就是神奇一个https证书.<br>证书的申请可以使用acme.sh,这个是一个自动申请免费证书的工具,还可以检测快到期自动重新申请.<br>我们再新建一个叫<code>acme.sh</code>的文件夹,然后在里面再创建一个<code>docker-compose.yml</code>文件和一个名叫<code>out</code>的文件夹.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> acme.sh</span><br><span class="line"><span class="built_in">cd</span> acme.sh</span><br><span class="line"><span class="built_in">mkdir</span> out</span><br><span class="line"><span class="built_in">touch</span> docker-compose.yml</span><br></pre></td></tr></table></figure>
 <p>然后在里面写如下内容:</p>
