@@ -302,7 +302,7 @@ sudo docker exec acme.sh --issue --dns dns_gd -d yourdomain.com
 ```yaml
 等待补全
 ```
-
+在路由器设置域名DNS解析劫持.
 ## 暴露到公网访问
 这样我们就可以在本地的局域网愉快的使用ttrss了.不过如果出门怎么办呢,rss非常适合在坐地铁的使用使用不是吗?只能在家用也太不方便了.
 所以我们要将tttrss暴露到公网,前一步的启用https也是为了增加暴漏到公网的安全性.  
