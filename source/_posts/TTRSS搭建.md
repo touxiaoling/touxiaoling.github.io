@@ -253,10 +253,11 @@ services:
 如果不经过一些其他特殊配置,watchtower容器一个宿主机只能运行一个,多个会相互冲突.不过一般来说一个就足够了.  
 如果你还有其他docker container 在运行也希望一并检测的话,给对应的容器增加一个`com.centurylinklabs.watchtower.enable: true`的label即可.  
 
-## 申请https证书,并使用nginx启用https
+## 启用https访问
 ttrss默认是使用http访问的,而现在的chrome浏览器不建议http访问,所以我们可以申请一个https证书,使用nginx将http转成https再访问ttrss.  
 如果要启用https,首先我们需要一个个人的域名,在国内买的话需要备案,如果不想要备案的话也可以在一些国外的比如godaddy上注册一个域名.价格应该不会特别贵.  
 如果是在不想买的话就要考虑一些骚操作,不过我还是建议花钱买省心.有一个个人域名会方便很多.  
+### 创建acme.sh容器
 下面我就假设你已经有个一个域名,接下来就是神奇一个https证书.
 证书的申请可以使用acme.sh,这个是一个自动申请免费证书的工具,还可以检测快到期自动重新申请.
 我们再新建一个叫`acme.sh`的文件夹,然后在里面再创建一个`docker-compose.yml`文件和一个名叫`out`的文件夹.
@@ -288,6 +289,8 @@ services:
 因为我是在godaddy上申请的,所以申请证书就需要填入这里的`GD_Secret` 和`GD_Key`两个内容.这两个值可以在godaddy的开发者网站上申请.
 网址是: https://这里有一个网址等待补全.com/  
 使用`docker-compose up -d`即可启动acme.sh容器,它会在后台检测你已经申请的证书是否到期并续期.  
+
+### 申请https证书
 然后注册一个账号  
 ```bash
 sudo docker exec acme.sh --register-account -m youremail@mail.com
@@ -298,12 +301,16 @@ sudo docker exec acme.sh --register-account -m youremail@mail.com
 sudo docker exec acme.sh --issue --dns dns_gd -d yourdomain.com
 ```
 这个命令会申请一个证书,并且把它保存到`/acme.sh/out/yourdomain.com`目录下.不过我们不会直接操作out目录下的内容.也不会去手动copy它,这样他不会自动更新.  
-接下来我们创建一个ngnix容器.在ttrss的docker-compose.yml文件中,我们增加一些内容:
+### 创建nginx容器
+接下来我们创建一个nginx容器.在ttrss的docker-compose.yml文件中,我们增加一些内容:
 ```yaml
 等待补全
 ```
+### 导入https证书到ngnix
+
+### 在路由器配置DNS域名劫持
 在路由器设置域名DNS解析劫持.
-## 暴露到公网访问
+## 暴露TTRSS到公网访问
 这样我们就可以在本地的局域网愉快的使用ttrss了.不过如果出门怎么办呢,rss非常适合在坐地铁的使用使用不是吗?只能在家用也太不方便了.
 所以我们要将tttrss暴露到公网,前一步的启用https也是为了增加暴漏到公网的安全性.  
 这一步我们需要有一个固定的公网ip地址,或者DDNS,不过家用ip启动web服务是违法的,如果不备案的话我推荐是购买一个云服务器(国外),以及国外域名,这样会省很多事,不然还是乖乖备案叭.
