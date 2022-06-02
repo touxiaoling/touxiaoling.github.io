@@ -6,12 +6,5 @@ Allow: /about/
 Allow: /categories/
 Allow: /archives/
 Allow: /resources/ 
-Disallow: /vendors/
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /images/
-Disallow: /vendors/
-Disallow: /fancybox/
 
 Sitemap: https://blog.thetomin.com/sitemap.xml
