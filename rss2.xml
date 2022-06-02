@@ -6,16 +6,10 @@
     <title>tomin的个人博客</title>
     <link>https://blog.thetomin.com/</link>
     
-    <image>
-      <url>https://blog.thetomin.com/icon.png</url>
-      <title>tomin的个人博客</title>
-      <link>https://blog.thetomin.com/</link>
-    </image>
-    
     <atom:link href="https://blog.thetomin.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>不要再拖延啦!</description>
-    <pubDate>Thu, 02 Jun 2022 05:45:19 GMT</pubDate>
+    <pubDate>Thu, 02 Jun 2022 05:48:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
