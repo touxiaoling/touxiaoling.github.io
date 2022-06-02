@@ -3,6 +3,7 @@ title: 从黑群晖到TrueNAS SCALE
 tags:
   - 群晖
   - TrueNAS SCALE
+abbrlink: 8a7ae7d7
 date: 2022-06-02 11:20:27
 ---
 
