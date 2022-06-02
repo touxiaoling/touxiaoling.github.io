@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://blog.thetomin.com/2022/05/28/%E4%BB%8E%E9%BB%91%E7%BE%A4%E6%99%96%E5%88%B0truenas-scale/</loc>
+    
+    <lastmod>2022-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.thetomin.com/2022/05/11/%E4%BD%A0%E5%A5%BD-%E4%B8%96%E7%95%8C/</loc>
     
     <lastmod>2022-06-02</lastmod>
@@ -56,13 +65,6 @@
 
   
   <url>
-    <loc>https://blog.thetomin.com/tags/%E7%BE%A4%E6%99%96/</loc>
-    <lastmod>2022-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.thetomin.com/tags/TTRSS/</loc>
     <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -105,7 +107,21 @@
   </url>
   
   <url>
+    <loc>https://blog.thetomin.com/tags/%E7%BE%A4%E6%99%96/</loc>
+    <lastmod>2022-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.thetomin.com/tags/watchtower/</loc>
+    <lastmod>2022-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.thetomin.com/tags/TrueNAS-SCALE/</loc>
     <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
