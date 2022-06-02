@@ -17,6 +17,8 @@ description: '不要再拖延啦!'
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+baidusitemap:
+  path: baidusitemap.xml
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.thetomin.com

@@ -8,3 +8,4 @@ Allow: /archives/
 Allow: /resources/ 
 
 Sitemap: https://blog.thetomin.com/sitemap.xml
+Sitemap: https://blog.thetomin.com/baidusitemap.xml
