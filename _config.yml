@@ -5,9 +5,15 @@
 # Site
 title: tomin的个人博客
 subtitle: '从输入到输出'
-description: 'tomin的个人博客'
 keywords:
+  - NAS
+  - OpenWRT
+  - Linux
+  - PVE
+  - TrueNas
+  - GitHub
 author: tomin
+description: '不要再拖延啦!'
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
