@@ -2,36 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.thetomin.com/posts/37149971.html</loc>
-    
-    <lastmod>2022-06-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.thetomin.com/posts/8a7ae7d7.html</loc>
     
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/97d578eb.html</loc>
+    <loc>https://blog.thetomin.com/posts/37149971.html</loc>
     
-    <lastmod>2022-06-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.thetomin.com/about/index.html</loc>
-    
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-05-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +22,7 @@
   <url>
     <loc>https://blog.thetomin.com/categories/index.html</loc>
     
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-05-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +31,25 @@
   <url>
     <loc>https://blog.thetomin.com/tags/index.html</loc>
     
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-05-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.thetomin.com/about/index.html</loc>
+    
+    <lastmod>2022-05-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.thetomin.com/posts/97d578eb.html</loc>
+    
+    <lastmod>2022-05-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
