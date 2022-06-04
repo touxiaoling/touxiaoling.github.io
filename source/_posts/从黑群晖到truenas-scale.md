@@ -48,7 +48,10 @@ nas常见的,大家了解最多的就是群晖和威联通了,这两家都是闭
 好在社区倒是提出了一个更好的方式--通过docker in docker技术,使得我们可以建立一个docker-compose容器,然后在该容器内使用docker-compsoe去运行其他容器,这样就能和k3s的编排隔离开来.而且使用中也暂时没发现什么坑.可以说非常完美了.  
 首先添加社区源,这里po一下社区源的文档,上面有很多第三方包,不过我们在意的其实只有docker-compose.一键安装好后,进入命令行运行`docker compose`命令即可发现现在docker-compose已经成功安装在容器内了,然后就按平常的方式启动docker-compose即可.
 
-### SMB共享额制
+### SMB共享
+#### 共享额度限制
+#### ACL权限
+
 ### MAC TimeMachine设置
 
 ## NAS优化
