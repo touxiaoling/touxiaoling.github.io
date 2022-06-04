@@ -1,6 +1,5 @@
 ---
 title: 在PVE中安装LXC版本OpenWRT
-date: 2022-06-01 09:21:25
 tags:
     - PVE
     - OpenWrt

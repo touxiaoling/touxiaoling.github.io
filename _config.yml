@@ -17,16 +17,11 @@ description: '不要再拖延啦!'
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
-baidusitemap:
-  path: baidusitemap.xml
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.thetomin.com
 #permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink.html
-abbrlink:
-  alg: crc32
-  rep: hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -109,10 +104,6 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-Plugins: hexo-generator-feed
-## Themes: https://hexo.io/themes/
-#theme: landscape
-theme: next
 
 feed:
     type: 
@@ -130,6 +121,18 @@ feed:
     #icon: icon.png
     #autodiscovery: true
     template:
+    
+abbrlink:
+  alg: crc32
+  rep: hex
+
+baidusitemap:
+  path: baidusitemap.xml
+
+  
+## Themes: https://hexo.io/themes/
+#theme: landscape
+theme: next
 
 
 # Deployment
