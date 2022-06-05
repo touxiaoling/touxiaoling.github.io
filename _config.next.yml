@@ -259,7 +259,7 @@ post_meta:
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
   separated_meta: true
-  item_text_total: true
+  item_text_total: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -397,7 +397,7 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: true
+  enable: false
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -427,7 +427,7 @@ font:
   enable: false
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host: fonts.useso.com
+  host: 
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -473,7 +473,7 @@ font:
 index_with_subtitle: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
-exturl: true
+exturl: false
 # If true, an icon will be attached to each external URL
 exturl_icon: true
 
@@ -547,7 +547,7 @@ pangu: true
 # For more information: https://getquick.link
 # Front-matter variable (nonsupport home archive).
 quicklink:
-  enable: true
+  enable: false
 
   # Home page and archive page can be controlled through home and archive options below.
   # This configuration item is independent of `enable`.
@@ -589,7 +589,7 @@ comments:
 # Disqus
 # For more information: https://disqus.com
 disqus:
-  enable: true
+  enable: false
   shortname:
   count: true
 
@@ -886,7 +886,7 @@ vendors:
   # The default CDN provider of third-party plugins.
   # Available values: local | jsdelivr | unpkg | cdnjs | custom
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
-  plugins: jsdelivr
+  plugins: cdnjs
   # Custom CDN URL
   # For example:
   # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
