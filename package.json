@@ -1,8 +1,12 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "tomin-blog-site",
+  "version": "8.12.3",
   "private": true,
+  "description": "Tomin's bolg sit code.",
   "scripts": {
+    "highlight": "node lib/highlight.js",
+    "start": "hexo s",
+    "update": "node lib/update.js",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
@@ -11,11 +15,12 @@
   "hexo": {
     "version": "6.2.0"
   },
+  "author": "tomin <touxiaoling@outlook.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://blog.thetomin.com",
   "dependencies": {
     "hexo": "^6.2.0",
-    "hexo-theme-next": "^8.12.1",
     "hexo-server": "^3.0.0",
-    "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
@@ -26,7 +31,8 @@
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.1.0",
-    "hexo-theme-landscape": "^0.0.3",
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-theme-next": "^8.12.3",
     "hexo-abbrlink": "^2.2.1",
     "hexo-generator-baidu-sitemap": "^0.1.9"
   }
