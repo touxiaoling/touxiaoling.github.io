@@ -1,8 +1,8 @@
 {
   "name": "tomin-blog-site",
-  "version": "8.12.3",
+  "version": "8.13.0",
   "private": true,
-  "description": "Tomin's bolg sit code.",
+  "description": "Tomin's bolg site code.",
   "scripts": {
     "highlight": "node lib/highlight.js",
     "start": "hexo s",
