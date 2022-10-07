@@ -9,14 +9,14 @@
     <atom:link href="https://blog.thetomin.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>不要再拖延啦!</description>
-    <pubDate>Fri, 07 Oct 2022 07:20:13 GMT</pubDate>
+    <pubDate>Fri, 07 Oct 2022 07:33:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>你好-世界</title>
       <link>https://blog.thetomin.com/posts/97d578eb.html</link>
       <guid>https://blog.thetomin.com/posts/97d578eb.html</guid>
-      <pubDate>Fri, 07 Oct 2022 07:20:13 GMT</pubDate>
+      <pubDate>Thu, 06 Oct 2022 23:33:38 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直以来都想搭建一个博客,但是又觉的维护起来很麻烦.比如需要要服务器,需要个人域名,域名证书,网站备案等等.或者就是放在第三方博客平台上,但是发表的文章导出很麻烦,格式不够自由还要经过各种各样的审查和屏蔽.&lt;br&gt;另外就是一个个人博客通常来说大部分人的都没有什么访问,缺少引流方式和个人独特性的时候,这博客基本上就自己访问简直就是自闭.&lt;br&gt;自己大部分时候又是一个潜水党.种种评估下来,搭建个人博客的事情就一直搁置中.&lt;br&gt;不过,时间是一个很好的东西,几年下来发现个人域名,服务器什么也都有了,在做一些个人小爱好的时候发现网上的资料也不是完全足够,免不了还是要自己踩一些小坑.这里的坑部分是因为自己的水平跟不上文章的作者,部分是因为某些工具或者框架迭代导致的过时.&lt;br&gt;然后突然发现,那我也是可以写一些东西让其他人,或者同水平的朋友少踩坑的,建立博客的意义就有了.&lt;/p&gt;
 &lt;p&gt;最近在浏览其他网友的博文的时候发现有不少网友使用了hexo的框架,大致检索了下发现十分轻便,博文可以直接markdown语法,非常简单.初期可以直接搭建在github page上,启动成本很低.如果真的不错也,出于网络问题可以再迁移到国内的个人服务器上,又因为是markdown语法,跨框架迁移起来也很方便,再加上最近确实很闲,这让我动了实际搭建一个博客的行动理由.从这里大抵可以看出我是一个想的挺多不怎么愿意动手的人,因为重复折腾真的会让人回忆起来觉的很浪费生命,那这样还不如花费在一些直接收获快乐的垃圾事情上,没错,我说的就是打游戏.&lt;/p&gt;</description>
