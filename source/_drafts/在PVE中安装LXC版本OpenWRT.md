@@ -1,10 +1,11 @@
 ---
 title: 在PVE中安装LXC版本OpenWRT
 tags:
-    - PVE
-    - OpenWrt
-    - LXC
-    - github action
+- PVE
+- OpenWrt
+- LXC
+- github action
+date: 2022-06-01 09:49:15
 ---
 
 ## 前言

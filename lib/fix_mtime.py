@@ -10,6 +10,8 @@ yaml.add_representer(type(None), represent_none)
 
 doc_path=Path("./source/")
 
+prog=re.compile(r"^---\n(?P<context>.*?)^---\n",flags=re.DOTALL|re.M)
+
 for p in doc_path.glob("**/*.md"):
     if p.stem=="index":
         continue
@@ -18,10 +20,10 @@ for p in doc_path.glob("**/*.md"):
         continue
     create_time=datetime.fromtimestamp(float(create_time))
     context=p.read_text()
-    m=re.search(r"^---\n(?P<context>.*?)^---\n",context,flags=re.DOTALL|re.M)
-    mdtrri:dict=yaml.load(m.group("context"),yaml.Loader)
+    mdtrri:dict=yaml.load(prog.search(context,).group("context"),yaml.Loader)
     if "date" not in mdtrri:
         mdtrri["date"]=create_time    
         md_title=yaml.dump(mdtrri,Dumper=yaml.Dumper,sort_keys=False,allow_unicode=True)
-        
-        print(md_title)
+        md_title="---\n"+md_title+"---\n"
+        context_changed=prog.sub(md_title,context,count=1)
+        p.write_text(context_changed)
