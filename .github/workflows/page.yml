@@ -21,6 +21,8 @@ jobs:
             ${{ runner.os }}-pip-
       - name: add_createtime
         run: python3 lib/add_createtime.py
+      - name: add_filehistory
+        run: python3 lib/add_filehistory.py
       - name: change_ctime
         run: python3 lib/fix_mtime.py
 
