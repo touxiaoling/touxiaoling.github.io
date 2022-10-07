@@ -31,6 +31,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: change_ctime
+        run: python3 lib/fix_mtime.py
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
