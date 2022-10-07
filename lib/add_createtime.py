@@ -2,7 +2,12 @@ from datetime import datetime
 import subprocess
 from pathlib import Path
 import re
-import yaml
+try:
+    import yaml
+except ModuleNotFoundError:
+    import pip
+    pip.main(['install', 'pyyaml'])
+    import yaml
 
 def represent_none(self, _):
     return self.represent_scalar('tag:yaml.org,2002:null', '')
