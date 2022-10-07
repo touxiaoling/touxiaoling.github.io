@@ -12,23 +12,32 @@ jobs:
       - uses: actions/checkout@master
         with:
           fetch-depth: '0'
-
+      - uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
       - name: add_createtime
         run: python3 lib/add_createtime.py
       - name: change_ctime
         run: python3 lib/fix_mtime.py
 
       - name: Use Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@master
         with:
-          node-version: '18'
-      - name: Cache NPM dependencies
-        uses: actions/cache@v2
+          node-version: 18
+      - name: Get npm cache directory
+        id: npm-cache-dir
+        run: |
+          echo "::set-output name=dir::$(npm config get cache)"
+      - uses: actions/cache@master
+        id: npm-cache # use this to check for `cache-hit` ==> if: steps.npm-cache.outputs.cache-hit != 'true'
         with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
+          path: ${{ steps.npm-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.OS }}-npm-cache
+            ${{ runner.os }}-node-
       - name: Install Dependencies
         run: npm install
       - name: Build
