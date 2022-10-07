@@ -15,6 +15,6 @@ for p in doc_path.glob("**/*.md"):
 | ---- | --- |\n'''
     for i_change in change_info:
         change_log+=i_change+"\n"
-    print(change_log)
-    # context=p.read_text()+change_log
-    # p.write_text(context)
+    print(p,change_log)
+    context=p.read_text()+change_log
+    p.write_text(context)
