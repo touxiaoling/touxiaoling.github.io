@@ -27,6 +27,7 @@ for p in doc_path.glob("**/*.md"):
     context=p.read_text()
     mdtrri:dict=yaml.load(prog.search(context,).group("context"),yaml.Loader)
     if "date" not in mdtrri:
+        print(f"{p} add create_time {create_time}")
         mdtrri["date"]=create_time    
         md_title=yaml.dump(mdtrri,Dumper=yaml.Dumper,sort_keys=False,allow_unicode=True)
         md_title="---\n"+md_title+"---\n"
