@@ -20,10 +20,10 @@ prog=re.compile(r"^---\n(?P<context>.*?)^---\n",flags=re.DOTALL|re.M)
 for p in doc_path.glob("**/*.md"):
     if p.stem=="index":
         continue
-    create_time=subprocess.check_output(f'git log  --pretty=format:"%ad" --date unix -- {p} | tail -1',shell=True)
+    create_time=subprocess.check_output(f'git log  --pretty=format:"%ct" -- {p} | tail -1',shell=True)
     if not create_time:
         continue
-    create_time=datetime.fromtimestamp(float(create_time))
+    create_time=datetime.fromtimestamp(int(create_time))
     context=p.read_text()
     mdtrri:dict=yaml.load(prog.search(context,).group("context"),yaml.Loader)
     if "date" not in mdtrri:
