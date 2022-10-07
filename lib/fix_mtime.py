@@ -7,7 +7,7 @@ doc_path=Path("./source/")
 for p in doc_path.glob("**/*.md"):
     if p.stem=="index":
         continue
-    m_time=subprocess.check_output(f'git log -1 --pretty=format:"%ad" --date unix -- {p} ',shell=True)
+    m_time=subprocess.check_output(f'git log -1 --pretty=format:"%ct" -- {p} ',shell=True)
     if not m_time:
         continue
     m_time=int(m_time.decode().strip())
