@@ -1,9 +1,9 @@
 https://blog.thetomin.com/about/index.html
 https://blog.thetomin.com/categories/index.html
 https://blog.thetomin.com/tags/index.html
+https://blog.thetomin.com/posts/97d578eb.html
 https://blog.thetomin.com/posts/37149971.html
 https://blog.thetomin.com/posts/8a7ae7d7.html
-https://blog.thetomin.com/posts/97d578eb.html
 https://blog.thetomin.com/
 https://blog.thetomin.com/tags/TTRSS/
 https://blog.thetomin.com/tags/docker/
