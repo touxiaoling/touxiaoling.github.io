@@ -32,7 +32,7 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-deployer-git": "^3.0.0",
-    "hexo-theme-next": "^8.13.1",
+    "hexo-theme-next": "^8.15.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-generator-baidu-sitemap": "^0.1.9"
   }
