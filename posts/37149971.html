@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
-
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.0.0-rc1">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
@@ -17,11 +16,11 @@
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.thetomin.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.13.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.thetomin.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.16.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":true,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="前言目前个人获取信息的方式十分的平台化,而每个平台基本上又都是以使用时间为条件给你推荐各种东西,比如奶子啊奶子啊还有奶子啊什么的,搞得我身体很不好.开玩笑,rss可以让我们主动从各个平台获取信息而不被绑架自己的视野,这非常有用.比如b站不会给你推荐抖音上的东西,抖音也不会给你推荐其他平台上的东西,其他平台还有v2ex,知乎,微博,大家因为常用平台不一样看到的东西也非常的不一样.但是跨平台的浏览不得">
 <meta property="og:type" content="article">
@@ -62,6 +61,8 @@
 
 
 
+
+
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
@@ -73,8 +74,8 @@
   <div class="headband"></div>
 
   <main class="main">
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
@@ -94,7 +95,7 @@
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
     </div>
   </div>
 </div>
@@ -109,15 +110,9 @@
 
 
 
-</div>
+</header>
         
   
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-
   <aside class="sidebar">
 
     <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
@@ -138,15 +133,15 @@
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">tomin</p>
   <div class="site-description" itemprop="description">不要再拖延啦!</div>
 </div>
-<div class="site-state-wrap site-overview-item animated">
+<div class="site-state-wrap animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -157,37 +152,24 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author site-overview-item animated">
+  <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="https://github.com/touxiaoling" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;touxiaoling" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+        <a href="https://github.com/touxiaoling" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;touxiaoling" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
-        <a href="/rss2.xml" title="RSS → &#x2F;rss2.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+        <a href="/rss2.xml" title="RSS → &#x2F;rss2.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>RSS</a>
       </span>
   </div>
-
-
 
         </div>
       </div>
     </div>
-  </aside>
-  <div class="sidebar-dimmer"></div>
-
-
-    </header>
 
     
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-  <div class="reading-progress-bar"></div>
+  </aside>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
 
+    </div>
 
     <div class="main-inner post posts-expand">
 
@@ -255,8 +237,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>目前个人获取信息的方式十分的平台化,而每个平台基本上又都是以使用时间为条件给你推荐各种东西,比如奶子啊奶子啊还有奶子啊什么的,搞得我身体很不好.<br>开玩笑,rss可以让我们主动从各个平台获取信息而不被绑架自己的视野,这非常有用.比如b站不会给你推荐抖音上的东西,抖音也不会给你推荐其他平台上的东西,其他平台还有v2ex,知乎,微博,大家因为常用平台不一样看到的东西也非常的不一样.<br>但是跨平台的浏览不得不说又十分的麻烦.还有就是不同平台的排行榜都是处于自己利益定制的,另外还有一些不能在国内轻易访问的网站(非情色).<br>还有就是像孤岛一样的半年不更新一次的个人博客,这种就更难主动去访问了,如果想抓取不同平台的热门内容还有你想关注的内容汇总到一起,RSS就是一个非常棒的一站式工具.<br>当然,只是收集强时间相关的信息上来说.<br>不过很尴尬的是,目前并没有一个可以说特别好用的RSS平台,TTRSS相对来说是比较不错的一个,但用了一阵以后发现启动速度相对来说还是比较慢.嘛,怎么说,只能交给时间解决了.  </p>
+    <div class="post-body" itemprop="articleBody"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>目前个人获取信息的方式十分的平台化,而每个平台基本上又都是以使用时间为条件给你推荐各种东西,比如奶子啊奶子啊还有奶子啊什么的,搞得我身体很不好.<br>开玩笑,rss可以让我们主动从各个平台获取信息而不被绑架自己的视野,这非常有用.比如b站不会给你推荐抖音上的东西,抖音也不会给你推荐其他平台上的东西,其他平台还有v2ex,知乎,微博,大家因为常用平台不一样看到的东西也非常的不一样.<br>但是跨平台的浏览不得不说又十分的麻烦.还有就是不同平台的排行榜都是处于自己利益定制的,另外还有一些不能在国内轻易访问的网站(非情色).<br>还有就是像孤岛一样的半年不更新一次的个人博客,这种就更难主动去访问了,如果想抓取不同平台的热门内容还有你想关注的内容汇总到一起,RSS就是一个非常棒的一站式工具.<br>当然,只是收集强时间相关的信息上来说.<br>不过很尴尬的是,目前并没有一个可以说特别好用的RSS平台,TTRSS相对来说是比较不错的一个,但用了一阵以后发现启动速度相对来说还是比较慢.嘛,怎么说,只能交给时间解决了.  </p>
 <span id="more"></span>
 
 <h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><p>前置需要了解一些关于docker以及docker-compose的基本知识和基本命令.<br>docker在群晖的安装很简单,只要在套件库里面搜索docker然后安装上就可以了.其它系统的安装见官方页:<a target="_blank" rel="noopener" href="https://docs.docker.com/get-docker/">https://docs.docker.com/get-docker/</a><br>我是在自己的黑群晖小机器里搭建的.docker版本是20.10.3,docker-compose 版本是1.28.5,注意docker-compose版本最好大于1.17,不然会有点bug.  </p>
@@ -406,8 +387,20 @@
   </footer>
 
   
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
@@ -416,8 +409,8 @@
 
 
 
-
   <script src="/js/third-party/pace.js"></script>
+
 
   
   <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

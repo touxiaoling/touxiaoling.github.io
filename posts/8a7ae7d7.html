@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
-
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.0.0-rc1">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
@@ -17,11 +16,11 @@
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.thetomin.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.13.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.thetomin.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.16.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":true,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="前言回忆一下也是有几年了,最开始入坑NAS还是因为星际蜗牛,当时蜗牛矿渣大批量上市,一个机箱只要200左右,刚好当时有两块从笔记本还有PC淘汰下来的硬盘(2T),抱着折腾的心态直接入了两台,一台实验测试最佳实践,一台折腾最新特性.玩了有一年后,又奔着all in one的坑,自己配了一个性能强一点的.硬盘没插几块,也没什么存数据的刚需,但是这NAS家里都堆了三台了(苦笑).这三台NAS一开始都是用">
 <meta property="og:type" content="article">
@@ -58,6 +57,8 @@
 
 
 
+
+
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
@@ -69,8 +70,8 @@
   <div class="headband"></div>
 
   <main class="main">
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
@@ -90,7 +91,7 @@
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
     </div>
   </div>
 </div>
@@ -105,15 +106,9 @@
 
 
 
-</div>
+</header>
         
   
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-
   <aside class="sidebar">
 
     <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
@@ -134,15 +129,15 @@
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">tomin</p>
   <div class="site-description" itemprop="description">不要再拖延啦!</div>
 </div>
-<div class="site-state-wrap site-overview-item animated">
+<div class="site-state-wrap animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -153,37 +148,24 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author site-overview-item animated">
+  <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="https://github.com/touxiaoling" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;touxiaoling" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+        <a href="https://github.com/touxiaoling" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;touxiaoling" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
-        <a href="/rss2.xml" title="RSS → &#x2F;rss2.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+        <a href="/rss2.xml" title="RSS → &#x2F;rss2.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>RSS</a>
       </span>
   </div>
-
-
 
         </div>
       </div>
     </div>
-  </aside>
-  <div class="sidebar-dimmer"></div>
-
-
-    </header>
 
     
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-  <div class="reading-progress-bar"></div>
+  </aside>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
 
+    </div>
 
     <div class="main-inner post posts-expand">
 
@@ -251,8 +233,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>回忆一下也是有几年了,最开始入坑NAS还是因为星际蜗牛,当时蜗牛矿渣大批量上市,一个机箱只要200左右,刚好当时有两块从笔记本还有PC淘汰下来的硬盘(2T),抱着折腾的心态直接入了两台,一台实验测试最佳实践,一台折腾最新特性.玩了有一年后,又奔着all in one的坑,自己配了一个性能强一点的.<br>硬盘没插几块,也没什么存数据的刚需,但是这NAS家里都堆了三台了(苦笑).<br>这三台NAS一开始都是用的黑群晖,黑群晖的一个优点应该是ui界面比较人性直观,适合小白使用;但是,因为是盗版系统,安全更新是一个大问题,大版本更新的每次跟进都要扒层皮.这对我这种喜欢跟进最新特性的人简直是折磨.另外硬件适配也是针对性的,我用的cpu和主板都较新,不知道哪里不兼容,硬盘不能启用休眠,一休眠就挂.虽然早就想迁移,但群晖的文件系统是私有格式,直接转移硬盘到另一个NAS或者别的系统都是没办法识别数据的.所以看里面已经住了那么多漂亮小姐姐的份上,我也就睁一眼闭一眼.<br>但是这两天开始,那台自配的8盘位NAS开始掉盘了,看了上一篇文章的同学应该知道,我在上面搭建了rss服务,这下连新闻都不能看了.当作一个低成本家庭all in one小服务器用的NAS彻底失去了它的价值,狠狠心,里面的小姐姐都不要了!我要换家!!!  </p>
+    <div class="post-body" itemprop="articleBody"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>回忆一下也是有几年了,最开始入坑NAS还是因为星际蜗牛,当时蜗牛矿渣大批量上市,一个机箱只要200左右,刚好当时有两块从笔记本还有PC淘汰下来的硬盘(2T),抱着折腾的心态直接入了两台,一台实验测试最佳实践,一台折腾最新特性.玩了有一年后,又奔着all in one的坑,自己配了一个性能强一点的.<br>硬盘没插几块,也没什么存数据的刚需,但是这NAS家里都堆了三台了(苦笑).<br>这三台NAS一开始都是用的黑群晖,黑群晖的一个优点应该是ui界面比较人性直观,适合小白使用;但是,因为是盗版系统,安全更新是一个大问题,大版本更新的每次跟进都要扒层皮.这对我这种喜欢跟进最新特性的人简直是折磨.另外硬件适配也是针对性的,我用的cpu和主板都较新,不知道哪里不兼容,硬盘不能启用休眠,一休眠就挂.虽然早就想迁移,但群晖的文件系统是私有格式,直接转移硬盘到另一个NAS或者别的系统都是没办法识别数据的.所以看里面已经住了那么多漂亮小姐姐的份上,我也就睁一眼闭一眼.<br>但是这两天开始,那台自配的8盘位NAS开始掉盘了,看了上一篇文章的同学应该知道,我在上面搭建了rss服务,这下连新闻都不能看了.当作一个低成本家庭all in one小服务器用的NAS彻底失去了它的价值,狠狠心,里面的小姐姐都不要了!我要换家!!!  </p>
 <span id="more"></span>
 <h2 id="硬件说明"><a href="#硬件说明" class="headerlink" title="硬件说明"></a>硬件说明</h2><p>8盘的万由机箱,cpu是intel 10600T,16<em>2+8</em>2 2666MHz DDR4内存,技嘉小雕(B460M AORUS PRO)主板.<br>主板上是6口sata,所以又加了一块sata3.0 4口拓展卡凑出来8口.<br>电源是买机箱的时候送的益衡300W模块.整机功耗加硬盘100W左右,应该是妥妥的够了.<br>做好系统休眠的话,待机功耗应该是30~40w左右.  </p>
 <h2 id="关于RAID"><a href="#关于RAID" class="headerlink" title="关于RAID"></a>关于RAID</h2><p>NAS系统有一个重要的地方就是他的raid功能,但这更多的是一个企业功能,但是我个人的看法,家庭用户是没有必要使用raid的.<br>一是增加存储成本,使用raid必然至少要占用一或多块体积最大的盘,这一块盘拿出来用于存放数据不好吗?<br>二是riad5看似美好,但如果购买的是同一批次的磁盘,在同一时间损坏的概率很高,性价比最高的raid5恢复的计算需要对磁盘进行全盘读取,对家用磁盘来说这时候很有可能另一块也坏了.<br>三是riad本身是为高可用服务的,如果你有24小时上线的业务,磁盘损坏导致的业务损失可能远远超出单块磁盘,这时候通过一些磁盘冗余,减小出问题的概率还是非常有必要的.但对于家庭用户,估计没什么不能断掉的服务在跑吧,可能屋里每过几个月都会不定时停一次电,这种高可用几乎是没啥必要的.<br>四是增加维护复杂性,组raid以后,几块磁盘就绑定了,迁移的时候要一起迁移,有一块坏了,这些磁盘上的所有内容在进行校验恢复前都没办法继续使用.磁盘写入速度非常大比例的受到写入速度最慢的那块磁盘影响,对于使用多种大小和厂家的磁盘的家庭用户来说,组raid不一定会带来多大的写入上升,甚至还可能因为单块磁盘问题导致整个存储池速度严重变慢.组raid会减少数据丢失的概率,但会依照磁盘数量成倍的上升存储池出问题的概率.<br>五是不方便扩展,组建raid通常是推荐一次到位,而且所有磁盘体积最好一致,但是对于可能nas上都是淘汰下来的像我这种半垃圾佬,组raid就会导致很大的空间浪费.<br>六是SMART,现代的磁盘都已经支持SMART检测,快损坏的磁盘大部分都会现在SMART检测上出现预警,这时候做好迁移就好了.只要维护的好,没必要使用RAID来进行事后补偿.<br>七是丢了又怎么样,重要数据做好多处备份后,不能恢复的数据可能还没一块硬盘值钱哈哈哈哈哈,比如一些虚拟机的历史快照之类的,大不了重新下载和配置喽.<br>综合以上看法,我个人更倾向单盘单存储池的玩法.重要数据做好异地部分而不是使用raid.</p>
@@ -403,8 +384,20 @@
   </footer>
 
   
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
@@ -413,8 +406,8 @@
 
 
 
-
   <script src="/js/third-party/pace.js"></script>
+
 
   
   <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
