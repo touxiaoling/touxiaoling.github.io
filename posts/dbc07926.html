@@ -29,7 +29,7 @@
 <meta property="og:description" content="前言wsl2是个好东西,但因为网络的问题,wsl2的ip和局域网ip并不在一个层级,如果从其他机器B访问这台机器A的wsl2是不通的.而且还有个问题就是,wsl2的ip是随机分配的,会不停的变动,在本级可以通过localhost来访问,但是其他机器就不能使用了.我查找的教程都是通过比如说端口转发什么,这个如果wsl2的ip变动了,就要重新配置,比较麻烦.我想到一个新的方法就是通过跳板机的方式,先s">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-06-01T13:56:03.000Z">
-<meta property="article:modified_time" content="2023-06-01T13:58:28.000Z">
+<meta property="article:modified_time" content="2023-06-01T13:59:33.000Z">
 <meta property="article:author" content="tomin">
 <meta property="article:tag" content="NAS">
 <meta property="article:tag" content="OpenWRT">
@@ -209,7 +209,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-06-01 21:56:03 / 修改时间：21:58:28" itemprop="dateCreated datePublished" datetime="2023-06-01T21:56:03+08:00">2023-06-01</time>
+      <time title="创建时间：2023-06-01 21:56:03 / 修改时间：21:59:33" itemprop="dateCreated datePublished" datetime="2023-06-01T21:56:03+08:00">2023-06-01</time>
     </span>
 
   
@@ -229,6 +229,7 @@
     
     
     <div class="post-body" itemprop="articleBody"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>wsl2是个好东西,但因为网络的问题,wsl2的ip和局域网ip并不在一个层级,如果从其他机器B访问这台机器A的wsl2是不通的.<br>而且还有个问题就是,wsl2的ip是随机分配的,会不停的变动,在本级可以通过<code>localhost</code>来访问,但是其他机器就不能使用了.<br>我查找的教程都是通过比如说端口转发什么,这个如果wsl2的ip变动了,就要重新配置,比较麻烦.<br>我想到一个新的方法就是通过跳板机的方式,先ssh进本机,然后再从本机ssh到wsl2<br>这样的好处就是也不用查询wsl2的ip是多少了,比如你的本机ip是192.168.31.155 用户是 user ,配置好后只需输入<code>ssh root@localhost -J user@192.168.31.155</code> 即可从ssh 进wsl2.<br>接下来讲下配置方式.</p>
+<span id="more"></span>
 <h2 id="配置机器A的ssh"><a href="#配置机器A的ssh" class="headerlink" title="配置机器A的ssh"></a>配置机器A的ssh</h2><h3 id="安装openssh"><a href="#安装openssh" class="headerlink" title="安装openssh"></a>安装openssh</h3><p>win10 win11 都支持安装openssh server,可以参考这个链接:<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_install_firstuse">https://learn.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_install_firstuse</a></p>
 <blockquote>
 <p>若要安装 OpenSSH 组件：</p>
@@ -261,6 +262,10 @@
 </tr>
 </thead>
 <tbody><tr>
+<td>2023-06-01</td>
+<td>add more tag</td>
+</tr>
+<tr>
 <td>2023-06-01</td>
 <td>add abbrlink</td>
 </tr>
