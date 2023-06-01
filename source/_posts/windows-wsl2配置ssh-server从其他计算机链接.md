@@ -1,5 +1,6 @@
 ---
 title: windows wsl2配置ssh server并可以从其他计算机链接
+abbrlink: dbc07926
 date: 2023-06-01 21:56:03
 tags:
 ---
