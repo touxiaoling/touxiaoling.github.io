@@ -12,7 +12,7 @@ wsl2是个好东西,但因为网络的问题,wsl2的ip和局域网ip并不在一
 我想到一个新的方法就是通过跳板机的方式,先ssh进本机,然后再从本机ssh到wsl2
 这样的好处就是也不用查询wsl2的ip是多少了,比如你的本机ip是192.168.31.155 用户是 user ,配置好后只需输入`ssh root@localhost -J user@192.168.31.155` 即可从ssh 进wsl2.
 接下来讲下配置方式.
-
+<!--more-->
 ## 配置机器A的ssh
 ### 安装openssh
 win10 win11 都支持安装openssh server,可以参考这个链接:https://learn.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_install_firstuse
