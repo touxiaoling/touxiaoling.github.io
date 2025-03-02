@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.0.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
@@ -16,10 +16,10 @@
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.thetomin.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.thetomin.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="前言wsl2是个好东西,但因为网络的问题,wsl2的ip和局域网ip并不在一个层级,如果从其他机器B访问这台机器A的wsl2是不通的.而且还有个问题就是,wsl2的ip是随机分配的,会不停的变动,在本级可以通过localhost来访问,但是其他机器就不能使用了.我查找的教程都是通过比如说端口转发什么,这个如果wsl2的ip变动了,就要重新配置,比较麻烦.我想到一个新的方法就是通过跳板机的方式,先s">
 <meta property="og:type" content="article">
@@ -41,7 +41,6 @@
 
 
 <link rel="canonical" href="https://blog.thetomin.com/posts/dbc07926.html">
-
 
 
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.thetomin.com/posts/dbc07926.html","path":"posts/dbc07926.html","title":"windows wsl2配置ssh server并可以从其他计算机链接"}</script>
@@ -247,7 +246,7 @@
 <h3 id="重启openssh"><a href="#重启openssh" class="headerlink" title="重启openssh"></a>重启openssh</h3><p>在开始菜单搜索 服务 ,然后找到 openssh 右键停止 然后再右键运行.即可重启openssh.<br>然后尝试从机器B登陆到机器A试试. 在机器B输入命令<code>ssh user@192.168.31.155</code><br>注意 user代表你的windows用户名 就是<code>C:\user</code>文件夹下面的那个你的用户名文件夹的名字. <code>192.168.31.155</code>就是机器A的ip,可以在powershell输入<code>ipconfig</code>查看.</p>
 <h3 id="备注-openssh-调试"><a href="#备注-openssh-调试" class="headerlink" title="备注: openssh 调试"></a>备注: openssh 调试</h3><p>如果你配置完之后无法正常从机器B ssh到机器A,那么可以手动将 服务 里的 openssh 关掉. 打开powershell,输入<code>sshd -d</code><br>然后再从机器B ssh 到机器A,powershell会打印出无法连接的原因.</p>
 <h2 id="配置机器A的wsl2的ssh"><a href="#配置机器A的wsl2的ssh" class="headerlink" title="配置机器A的wsl2的ssh"></a>配置机器A的wsl2的ssh</h2><h3 id="重装ssh"><a href="#重装ssh" class="headerlink" title="重装ssh"></a>重装ssh</h3><p>输入</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt remove openssh-server -y</span><br><span class="line">sudo apt install openssh-server -y</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt remove openssh-server -y</span><br><span class="line"><span class="built_in">sudo</span> apt install openssh-server -y</span><br></pre></td></tr></table></figure>
 <h3 id="放入公钥"><a href="#放入公钥" class="headerlink" title="放入公钥"></a>放入公钥</h3><p>如果不存在 <code>~/.ssh</code>文件夹,那输入 <code>ssh-keygen</code> 生成ssh key<br>然后将机器B的公钥放在<code>~/.ssh/authorized_keys</code>里面<br>注意<code>authorized_keys</code> 文件的权限,最好用<code>chmod 600 ~/.ssh/authorized_keys</code>重设下权限.</p>
 <h3 id="重启ssh服务"><a href="#重启ssh服务" class="headerlink" title="重启ssh服务"></a>重启ssh服务</h3><p>输入下面的命令重启sshd</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart ssh</span><br></pre></td></tr></table></figure>
@@ -345,6 +344,12 @@
   </footer>
 
   
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
   <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up fa-lg"></i>
     <span>0%</span>
@@ -361,7 +366,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
 
   
 
