@@ -13,7 +13,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.0.0-rc2"
+    "version": "7.3.0"
   },
   "author": "tomin <touxiaoling@outlook.com>",
   "license": "CC-BY-NC-SA-4.0",
