@@ -6,7 +6,7 @@
   <link href="https://blog.thetomin.com/atom.xml" rel="self"/>
   
   <link href="https://blog.thetomin.com/"/>
-  <updated>2024-01-19T12:32:11.000Z</updated>
+  <updated>2025-05-19T07:51:40.000Z</updated>
   <id>https://blog.thetomin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shelvez: a compressed, faster alternative to shelve with JSON and Pydantic support</title>
+    <link href="https://blog.thetomin.com/posts/62db67aa.html"/>
+    <id>https://blog.thetomin.com/posts/62db67aa.html</id>
+    <published>2025-05-19T07:49:24.000Z</published>
+    <updated>2025-05-19T07:51:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="What-My-Project-Does"><a href="#What-My-Project-Does" class="headerlink" title="What My Project Does"></a>What My Project Does</h2><p>I made a small library called <a href="https://github.com/touxiaoling/shelvez"><code>shelvez</code></a>. It works similarly to Python’s built-in <code>shelve</code>, but adds compression and flexible serialization options.</p><p><code>shelvez</code> is a lightweight key-value store with:</p><ul><li>Zstandard compression for smaller database files</li><li>Built-in support for Pickle, JSON, and Pydantic model serialization</li><li>A plug-in serializer interface if you want to define your own</li><li>Future plans for SQLite-backed transactions</li></ul><p>The goal is to provide a more flexible and efficient alternative to <code>shelve</code>, while keeping the same simple API.</p><h2 id="Target-Audience"><a href="#Target-Audience" class="headerlink" title="Target Audience"></a>Target Audience</h2><p>This project may be useful for:</p><ul><li>Developers who like the convenience of <code>shelve</code> but want smaller and faster storage</li><li>People building scripts, data pipelines, CLI tools, or experiments</li><li>Anyone who wants to store structured data (like dicts or models) with minimal setup</li></ul><p>It’s still early stage, so best suited for prototypes, research, or personal tools rather than production.</p><h2 id="Comparison"><a href="#Comparison" class="headerlink" title="Comparison"></a>Comparison</h2><p>Compared to Python’s built-in <code>shelve</code>, <code>shelvez</code>:</p><p>Measured using <code>pytest-benchmark</code> with some number simple <code>db[&quot;random_key&quot;] = random_value</code> writes:</p><table><thead><tr><th align="left">Backend</th><th align="left">Mean Write Time</th><th align="left">File Size</th></tr></thead><tbody><tr><td align="left"><code>shelve</code></td><td align="left">~450 ms</td><td align="left">380 KB</td></tr><tr><td align="left"><code>shelvez</code></td><td align="left">~240–260 ms</td><td align="left">308–312 KB</td></tr></tbody></table><blockquote><p>Roughly 2× faster and ~20% smaller on disk based on benchmarks using random string data. In real-world usage with more structured or repetitive data, compression is likely to be even more effective.</p></blockquote><h2 id="Example-Usage"><a href="#Example-Usage" class="headerlink" title="Example Usage"></a>Example Usage</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> shelvez <span class="keyword">as</span> shelve</span><br><span class="line">        </span><br><span class="line">db = shelve.<span class="built_in">open</span>(<span class="string">&quot;data.db&quot;</span>)</span><br><span class="line">db[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;value&quot;</span></span><br><span class="line">db.close()</span><br></pre></td></tr></table></figure><h2 id="修改历史"><a href="#修改历史" class="headerlink" title="修改历史"></a>修改历史</h2><table><thead><tr><th>时间</th><th>修改内容</th></tr></thead><tbody><tr><td>2025-05-19</td><td>add post</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What-My-Project-Does&quot;&gt;&lt;a href=&quot;#What-My-Project-Does&quot; class=&quot;headerlink&quot; title=&quot;What My Project Does&quot;&gt;&lt;/a&gt;What My Project</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Android系统adb设置proxy</title>
