@@ -204,7 +204,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2025-05-19 15:49:24 / 修改时间：15:51:40" itemprop="dateCreated datePublished" datetime="2025-05-19T15:49:24+08:00">2025-05-19</time>
+      <time title="创建时间：2025-05-19 15:49:24 / 修改时间：15:53:21" itemprop="dateCreated datePublished" datetime="2025-05-19T15:49:24+08:00">2025-05-19</time>
     </span>
 
   
@@ -226,51 +226,14 @@
 <li>Future plans for SQLite-backed transactions</li>
 </ul>
 <p>The goal is to provide a more flexible and efficient alternative to <code>shelve</code>, while keeping the same simple API.</p>
-<h2 id="Target-Audience"><a href="#Target-Audience" class="headerlink" title="Target Audience"></a>Target Audience</h2><p>This project may be useful for:</p>
-<ul>
-<li>Developers who like the convenience of <code>shelve</code> but want smaller and faster storage</li>
-<li>People building scripts, data pipelines, CLI tools, or experiments</li>
-<li>Anyone who wants to store structured data (like dicts or models) with minimal setup</li>
-</ul>
-<p>It’s still early stage, so best suited for prototypes, research, or personal tools rather than production.</p>
-<h2 id="Comparison"><a href="#Comparison" class="headerlink" title="Comparison"></a>Comparison</h2><p>Compared to Python’s built-in <code>shelve</code>, <code>shelvez</code>:</p>
-<p>Measured using <code>pytest-benchmark</code> with some number simple <code>db[&quot;random_key&quot;] = random_value</code> writes:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Backend</th>
-<th align="left">Mean Write Time</th>
-<th align="left">File Size</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><code>shelve</code></td>
-<td align="left">~450 ms</td>
-<td align="left">380 KB</td>
-</tr>
-<tr>
-<td align="left"><code>shelvez</code></td>
-<td align="left">~240–260 ms</td>
-<td align="left">308–312 KB</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>Roughly 2× faster and ~20% smaller on disk based on benchmarks using random string data. In real-world usage with more structured or repetitive data, compression is likely to be even more effective.</p>
-</blockquote>
-<h2 id="Example-Usage"><a href="#Example-Usage" class="headerlink" title="Example Usage"></a>Example Usage</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> shelvez <span class="keyword">as</span> shelve</span><br><span class="line">        </span><br><span class="line">db = shelve.<span class="built_in">open</span>(<span class="string">&quot;data.db&quot;</span>)</span><br><span class="line">db[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;value&quot;</span></span><br><span class="line">db.close()</span><br></pre></td></tr></table></figure>
-<h2 id="修改历史"><a href="#修改历史" class="headerlink" title="修改历史"></a>修改历史</h2><table>
-<thead>
-<tr>
-<th>时间</th>
-<th>修改内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>2025-05-19</td>
-<td>add post</td>
-</tr>
-</tbody></table>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/62db67aa.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
