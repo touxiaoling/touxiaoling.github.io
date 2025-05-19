@@ -20,6 +20,8 @@ I made a small library called [`shelvez`](https://github.com/touxiaoling/shelve
 
 The goal is to provide a more flexible and efficient alternative to `shelve`, while keeping the same simple API.
 
+<!--more-->
+
 ## Target Audience
 
 This project may be useful for:
