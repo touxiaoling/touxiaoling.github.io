@@ -1,6 +1,7 @@
 https://blog.thetomin.com/tags/index.html
 https://blog.thetomin.com/about/index.html
 https://blog.thetomin.com/categories/index.html
+https://blog.thetomin.com/posts/51c06f9f.html
 https://blog.thetomin.com/posts/62db67aa.html
 https://blog.thetomin.com/posts/8a7ae7d7.html
 https://blog.thetomin.com/posts/b30c046b.html
@@ -20,6 +21,6 @@ https://blog.thetomin.com/tags/frp/
 https://blog.thetomin.com/tags/https/
 https://blog.thetomin.com/tags/%E7%BE%A4%E6%99%96/
 https://blog.thetomin.com/tags/watchtower/
-https://blog.thetomin.com/tags/TrueNAS-SCALE/
 https://blog.thetomin.com/tags/next/
 https://blog.thetomin.com/tags/hexo/
+https://blog.thetomin.com/tags/TrueNAS-SCALE/
