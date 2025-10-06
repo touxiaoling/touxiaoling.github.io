@@ -21,6 +21,6 @@ https://blog.thetomin.com/tags/frp/
 https://blog.thetomin.com/tags/https/
 https://blog.thetomin.com/tags/%E7%BE%A4%E6%99%96/
 https://blog.thetomin.com/tags/watchtower/
+https://blog.thetomin.com/tags/TrueNAS-SCALE/
 https://blog.thetomin.com/tags/next/
 https://blog.thetomin.com/tags/hexo/
-https://blog.thetomin.com/tags/TrueNAS-SCALE/
