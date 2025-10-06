@@ -13,13 +13,13 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.0.0"
   },
   "author": "tomin <touxiaoling@outlook.com>",
   "license": "CC-BY-NC-SA-4.0",
   "homepage": "https://blog.thetomin.com",
   "dependencies": {
-    "hexo": "^7.0.0",
+    "hexo": "^8.0.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
