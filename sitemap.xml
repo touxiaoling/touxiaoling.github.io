@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.thetomin.com/tags/index.html</loc>
+    <loc>https://blog.ftomin.com/tags/index.html</loc>
     
     <lastmod>2025-10-11</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/about/index.html</loc>
+    <loc>https://blog.ftomin.com/about/index.html</loc>
     
     <lastmod>2025-10-11</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/categories/index.html</loc>
+    <loc>https://blog.ftomin.com/categories/index.html</loc>
     
     <lastmod>2025-10-11</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/51c06f9f.html</loc>
+    <loc>https://blog.ftomin.com/posts/51c06f9f.html</loc>
     
     <lastmod>2025-06-30</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/62db67aa.html</loc>
+    <loc>https://blog.ftomin.com/posts/62db67aa.html</loc>
     
     <lastmod>2025-05-19</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/8a7ae7d7.html</loc>
+    <loc>https://blog.ftomin.com/posts/8a7ae7d7.html</loc>
     
     <lastmod>2025-03-02</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/b30c046b.html</loc>
+    <loc>https://blog.ftomin.com/posts/b30c046b.html</loc>
     
     <lastmod>2024-01-19</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/dbc07926.html</loc>
+    <loc>https://blog.ftomin.com/posts/dbc07926.html</loc>
     
     <lastmod>2023-06-01</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/9371e661.html</loc>
+    <loc>https://blog.ftomin.com/posts/9371e661.html</loc>
     
     <lastmod>2023-05-08</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/37149971.html</loc>
+    <loc>https://blog.ftomin.com/posts/37149971.html</loc>
     
     <lastmod>2022-10-07</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/posts/97d578eb.html</loc>
+    <loc>https://blog.ftomin.com/posts/97d578eb.html</loc>
     
     <lastmod>2022-10-07</lastmod>
     
@@ -102,7 +102,7 @@
   
 
   <url>
-    <loc>https://blog.thetomin.com/</loc>
+    <loc>https://blog.ftomin.com/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -110,98 +110,98 @@
 
   
   <url>
-    <loc>https://blog.thetomin.com/tags/Android/</loc>
+    <loc>https://blog.ftomin.com/tags/TTRSS/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/Proxy/</loc>
+    <loc>https://blog.ftomin.com/tags/docker/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/adb/</loc>
+    <loc>https://blog.ftomin.com/tags/RSSHub/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/TTRSS/</loc>
+    <loc>https://blog.ftomin.com/tags/Nginx/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/docker/</loc>
+    <loc>https://blog.ftomin.com/tags/frp/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/RSSHub/</loc>
+    <loc>https://blog.ftomin.com/tags/https/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/Nginx/</loc>
+    <loc>https://blog.ftomin.com/tags/%E7%BE%A4%E6%99%96/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/frp/</loc>
+    <loc>https://blog.ftomin.com/tags/watchtower/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/https/</loc>
+    <loc>https://blog.ftomin.com/tags/Android/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/%E7%BE%A4%E6%99%96/</loc>
+    <loc>https://blog.ftomin.com/tags/Proxy/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/watchtower/</loc>
+    <loc>https://blog.ftomin.com/tags/adb/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/TrueNAS-SCALE/</loc>
+    <loc>https://blog.ftomin.com/tags/TrueNAS-SCALE/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/next/</loc>
+    <loc>https://blog.ftomin.com/tags/next/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.thetomin.com/tags/hexo/</loc>
+    <loc>https://blog.ftomin.com/tags/hexo/</loc>
     <lastmod>2025-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

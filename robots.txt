@@ -7,5 +7,5 @@ Allow: /categories/
 Allow: /archives/
 Allow: /resources/ 
 
-Sitemap: https://blog.thetomin.com/sitemap.xml
-Sitemap: https://blog.thetomin.com/baidusitemap.xml
+Sitemap: https://blog.ftomin.com/sitemap.xml
+Sitemap: https://blog.ftomin.com/baidusitemap.xml

@@ -3,11 +3,11 @@
   <title>tomin的个人博客</title>
   
   <subtitle>从输入到输出</subtitle>
-  <link href="https://blog.thetomin.com/atom.xml" rel="self"/>
+  <link href="https://blog.ftomin.com/atom.xml" rel="self"/>
   
-  <link href="https://blog.thetomin.com/"/>
+  <link href="https://blog.ftomin.com/"/>
   <updated>2025-06-30T10:23:11.000Z</updated>
-  <id>https://blog.thetomin.com/</id>
+  <id>https://blog.ftomin.com/</id>
   
   <author>
     <name>tomin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>pHash 算法探究</title>
-    <link href="https://blog.thetomin.com/posts/51c06f9f.html"/>
-    <id>https://blog.thetomin.com/posts/51c06f9f.html</id>
+    <link href="https://blog.ftomin.com/posts/51c06f9f.html"/>
+    <id>https://blog.ftomin.com/posts/51c06f9f.html</id>
     <published>2025-06-30T10:18:04.000Z</published>
     <updated>2025-06-30T10:23:11.000Z</updated>
     
@@ -36,8 +36,8 @@
   
   <entry>
     <title>shelvez: a compressed, faster alternative to shelve with JSON and Pydantic support</title>
-    <link href="https://blog.thetomin.com/posts/62db67aa.html"/>
-    <id>https://blog.thetomin.com/posts/62db67aa.html</id>
+    <link href="https://blog.ftomin.com/posts/62db67aa.html"/>
+    <id>https://blog.ftomin.com/posts/62db67aa.html</id>
     <published>2025-05-19T07:49:24.000Z</published>
     <updated>2025-05-19T07:53:21.000Z</updated>
     
@@ -61,8 +61,8 @@
   
   <entry>
     <title>Android系统adb设置proxy</title>
-    <link href="https://blog.thetomin.com/posts/b30c046b.html"/>
-    <id>https://blog.thetomin.com/posts/b30c046b.html</id>
+    <link href="https://blog.ftomin.com/posts/b30c046b.html"/>
+    <id>https://blog.ftomin.com/posts/b30c046b.html</id>
     <published>2024-01-19T12:25:44.000Z</published>
     <updated>2024-01-19T12:32:11.000Z</updated>
     
@@ -84,18 +84,18 @@
     
     
     
-    <category term="Android" scheme="https://blog.thetomin.com/tags/Android/"/>
+    <category term="Android" scheme="https://blog.ftomin.com/tags/Android/"/>
     
-    <category term="Proxy" scheme="https://blog.thetomin.com/tags/Proxy/"/>
+    <category term="Proxy" scheme="https://blog.ftomin.com/tags/Proxy/"/>
     
-    <category term="adb" scheme="https://blog.thetomin.com/tags/adb/"/>
+    <category term="adb" scheme="https://blog.ftomin.com/tags/adb/"/>
     
   </entry>
   
   <entry>
     <title>windows wsl2配置ssh server并可以从其他计算机链接</title>
-    <link href="https://blog.thetomin.com/posts/dbc07926.html"/>
-    <id>https://blog.thetomin.com/posts/dbc07926.html</id>
+    <link href="https://blog.ftomin.com/posts/dbc07926.html"/>
+    <id>https://blog.ftomin.com/posts/dbc07926.html</id>
     <published>2023-06-01T13:56:03.000Z</published>
     <updated>2023-06-01T13:59:33.000Z</updated>
     
@@ -111,8 +111,8 @@
   
   <entry>
     <title>一个自动投稿视频的思路</title>
-    <link href="https://blog.thetomin.com/posts/9371e661.html"/>
-    <id>https://blog.thetomin.com/posts/9371e661.html</id>
+    <link href="https://blog.ftomin.com/posts/9371e661.html"/>
+    <id>https://blog.ftomin.com/posts/9371e661.html</id>
     <published>2022-12-09T09:20:45.000Z</published>
     <updated>2023-05-08T15:17:26.000Z</updated>
     
@@ -128,8 +128,8 @@
   
   <entry>
     <title>从黑群晖到TrueNAS SCALE</title>
-    <link href="https://blog.thetomin.com/posts/8a7ae7d7.html"/>
-    <id>https://blog.thetomin.com/posts/8a7ae7d7.html</id>
+    <link href="https://blog.ftomin.com/posts/8a7ae7d7.html"/>
+    <id>https://blog.ftomin.com/posts/8a7ae7d7.html</id>
     <published>2022-06-01T19:09:34.000Z</published>
     <updated>2025-03-02T16:04:45.000Z</updated>
     
@@ -141,16 +141,16 @@
     
     
     
-    <category term="群晖" scheme="https://blog.thetomin.com/tags/%E7%BE%A4%E6%99%96/"/>
+    <category term="群晖" scheme="https://blog.ftomin.com/tags/%E7%BE%A4%E6%99%96/"/>
     
-    <category term="TrueNAS SCALE" scheme="https://blog.thetomin.com/tags/TrueNAS-SCALE/"/>
+    <category term="TrueNAS SCALE" scheme="https://blog.ftomin.com/tags/TrueNAS-SCALE/"/>
     
   </entry>
   
   <entry>
     <title>在群晖中使用docker搭建TTRSS+RSSHub并启用https</title>
-    <link href="https://blog.thetomin.com/posts/37149971.html"/>
-    <id>https://blog.thetomin.com/posts/37149971.html</id>
+    <link href="https://blog.ftomin.com/posts/37149971.html"/>
+    <id>https://blog.ftomin.com/posts/37149971.html</id>
     <published>2022-05-13T01:45:54.000Z</published>
     <updated>2022-10-07T07:44:52.000Z</updated>
     
@@ -162,28 +162,28 @@
     
     
     
-    <category term="TTRSS" scheme="https://blog.thetomin.com/tags/TTRSS/"/>
+    <category term="TTRSS" scheme="https://blog.ftomin.com/tags/TTRSS/"/>
     
-    <category term="docker" scheme="https://blog.thetomin.com/tags/docker/"/>
+    <category term="docker" scheme="https://blog.ftomin.com/tags/docker/"/>
     
-    <category term="RSSHub" scheme="https://blog.thetomin.com/tags/RSSHub/"/>
+    <category term="RSSHub" scheme="https://blog.ftomin.com/tags/RSSHub/"/>
     
-    <category term="Nginx" scheme="https://blog.thetomin.com/tags/Nginx/"/>
+    <category term="Nginx" scheme="https://blog.ftomin.com/tags/Nginx/"/>
     
-    <category term="frp" scheme="https://blog.thetomin.com/tags/frp/"/>
+    <category term="frp" scheme="https://blog.ftomin.com/tags/frp/"/>
     
-    <category term="https" scheme="https://blog.thetomin.com/tags/https/"/>
+    <category term="https" scheme="https://blog.ftomin.com/tags/https/"/>
     
-    <category term="群晖" scheme="https://blog.thetomin.com/tags/%E7%BE%A4%E6%99%96/"/>
+    <category term="群晖" scheme="https://blog.ftomin.com/tags/%E7%BE%A4%E6%99%96/"/>
     
-    <category term="watchtower" scheme="https://blog.thetomin.com/tags/watchtower/"/>
+    <category term="watchtower" scheme="https://blog.ftomin.com/tags/watchtower/"/>
     
   </entry>
   
   <entry>
     <title>你好-世界</title>
-    <link href="https://blog.thetomin.com/posts/97d578eb.html"/>
-    <id>https://blog.thetomin.com/posts/97d578eb.html</id>
+    <link href="https://blog.ftomin.com/posts/97d578eb.html"/>
+    <id>https://blog.ftomin.com/posts/97d578eb.html</id>
     <published>2022-05-11T13:57:09.000Z</published>
     <updated>2022-10-07T07:17:32.000Z</updated>
     
@@ -196,9 +196,9 @@
     
     
     
-    <category term="next" scheme="https://blog.thetomin.com/tags/next/"/>
+    <category term="next" scheme="https://blog.ftomin.com/tags/next/"/>
     
-    <category term="hexo" scheme="https://blog.thetomin.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://blog.ftomin.com/tags/hexo/"/>
     
   </entry>
   
