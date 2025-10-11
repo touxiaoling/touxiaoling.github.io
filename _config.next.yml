@@ -486,7 +486,7 @@ exturl_icon: true
 
 # Google Webmaster tools verification.
 # See: https://developers.google.com/search
-google_site_verification: "vvV9QSwpXmBAG3OplvhBoUQ-9Eb5BMSd7KII8jqj1gs" 
+google_site_verification: 
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmasters
@@ -765,7 +765,7 @@ addtoany:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: G-PW7NTWBTPR # <app_id>
+  tracking_id:  # <app_id>
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
