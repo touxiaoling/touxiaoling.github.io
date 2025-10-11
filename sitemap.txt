@@ -10,6 +10,9 @@ https://blog.ftomin.com/posts/9371e661.html
 https://blog.ftomin.com/posts/37149971.html
 https://blog.ftomin.com/posts/97d578eb.html
 https://blog.ftomin.com/
+https://blog.ftomin.com/tags/Android/
+https://blog.ftomin.com/tags/Proxy/
+https://blog.ftomin.com/tags/adb/
 https://blog.ftomin.com/tags/TTRSS/
 https://blog.ftomin.com/tags/docker/
 https://blog.ftomin.com/tags/RSSHub/
@@ -18,9 +21,6 @@ https://blog.ftomin.com/tags/frp/
 https://blog.ftomin.com/tags/https/
 https://blog.ftomin.com/tags/%E7%BE%A4%E6%99%96/
 https://blog.ftomin.com/tags/watchtower/
-https://blog.ftomin.com/tags/Android/
-https://blog.ftomin.com/tags/Proxy/
-https://blog.ftomin.com/tags/adb/
 https://blog.ftomin.com/tags/TrueNAS-SCALE/
 https://blog.ftomin.com/tags/next/
 https://blog.ftomin.com/tags/hexo/
