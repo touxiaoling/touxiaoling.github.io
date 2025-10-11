@@ -1,0 +1,4 @@
+- Use uv run for script execution in python projects
+- Place all test code in the 'tests' folder and implement using pytest library.
+- No unnecessary error handling in the code.
+- NiceGUI auto-reloads on file changes by default.
